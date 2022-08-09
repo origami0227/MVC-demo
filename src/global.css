@@ -1,0 +1,12 @@
+body{
+  overflow: hidden;/*删除滚动条*/
+}
+body > .page{
+  display: flex;
+  flex-wrap: wrap;/*自动换行*/
+}
+body > .page > section{
+  width: 50vw;
+  height: 50vh;
+  border: 1px solid grey;
+}
